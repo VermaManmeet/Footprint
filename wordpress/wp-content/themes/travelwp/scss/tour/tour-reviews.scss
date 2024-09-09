@@ -1,0 +1,128 @@
+.tour-reviews-items {
+	border-top:     1px solid #e9e9e9;
+	padding-top:    20px;
+	padding-bottom: 20px;
+	margin-top:     20px;
+}
+.tour-reviews-form {
+	border-top:  1px solid #e9e9e9;
+	padding-top: 30px;
+}
+
+.tour-reviews-item {
+	border-bottom:  1px dotted #e9e9e9;
+	padding-bottom: 20px;
+	margin-bottom:  20px;
+	&:last-child {
+		border-bottom:  none;
+		padding-bottom: 0;
+		margin-bottom:  0;
+	}
+}
+
+.tour-reviews {
+	padding-top: 25px;
+}
+
+.tour-reviews-item-container {
+	overflow: hidden;
+}
+
+.tour-reviews-item-info {
+	margin-right: 20px;
+	float:        left;
+	text-align:   center;
+}
+
+.tour-reviews-item-info img {
+	margin-bottom: 15px;
+	border-radius: 100%;
+	box-shadow:    0 2px 3px rgba(0, 0, 0, 0.09);
+	border:        6px solid #fff;
+}
+
+.tour-reviews-author {
+	font-size: 1.133em;
+}
+
+.tour-reviews-item-content-top {
+	margin-top:    10px;
+	margin-bottom: 10px;
+	overflow:      hidden;
+}
+
+.tour-reviews-item_rating {
+	float: left;
+	color: #ffcd47;
+	i {
+		margin-right: 2px;
+	}
+}
+
+.tour-reviews-item-date {
+	float: right;
+	color: #c3c2c2;
+}
+
+.tour-reviews-form-title {
+	margin:        0;
+	margin-bottom: 20px;
+	font-size:     1.333em;
+	font-weight:   700;
+	font-style:    normal;
+}
+
+.tour-reviews-form-group {
+	position: relative;
+}
+
+.tour-reviews-form input, .tour-reviews-form textarea {
+	background:         #fbfbfb;
+	border:             1px solid #ebebeb;
+	@include transition( all 0.1s ease-in-out);
+}
+
+.tour-reviews-form textarea {
+	width:   500px;
+	height:  100px;
+	padding: 12px 15px;
+}
+
+.tour-reviews-form {
+	input[type="text"], input[type="email"], input[type="search"],
+	input[type="tel"], input[type="number"], input[type="password"], input[type="date"] {
+		display:            block;
+		width:              100%;
+		height:             45px;
+		line-height:        21px;
+		margin-bottom:      10px;
+		padding:            12px 15px;
+		-webkit-appearance: none;
+		-moz-appearance:    none;
+	}
+}
+
+.tour-reviews-form input[type="text"] {
+	width: 350px;
+
+}
+
+.tour-reviews-form__rating {
+	margin:    15px 0;
+	font-size: 1.067em;
+	overflow:  hidden;
+}
+
+#respond input#submit {
+ 	line-height:    38px;
+	padding:        0 40px;
+	border:         none;
+	color:          #333;
+	text-transform: uppercase;
+ 	box-shadow:     0 2px 0 0 #c6a615;
+ 	letter-spacing: -0.5px;
+ }
+
+#respond input#submit:hover {
+	color: #fff;
+}

@@ -1,0 +1,84 @@
+@media (max-width: 380px) {
+	.travel-booking-search {
+		.hb-form-table {
+			li {
+				width: 100%;
+				&.hb-submit button {
+					width: 100%;
+				}
+			}
+		}
+		&.travel-booking-style_2 {
+			form {
+				padding-top: 0;
+			}
+			.hb-form-table {
+				li {
+					width: 100%;
+					&.hb-submit button {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.item-list-tour .content-list-tour .wrapper_content {
+		&:before {
+			display: none;
+		}
+		.content-left, .content-right {
+			width:   100%;
+			padding: 0;
+			.item_rating {
+				.star-rating {
+					margin-left: 0 !important;
+				}
+			}
+		}
+		.content-right {
+			text-align:  left;
+			padding-top: 20px;
+		}
+	}
+	.discounts-tour .discounts-title {
+		font-size:   20px;
+		line-height: 30px;
+		span {
+			font-size: 22px;
+		}
+	}
+	
+	.sc-gallery {
+		.content_gallery {
+			.gallery_item-wrap {
+				width: 100%;
+			}
+		}
+	}
+	.tours-type-pain {
+		.tours_type_item {
+			width: 100%;
+			.item__title {
+				font-size: 2.6em;
+			}
+			.count-attr {
+				font-size: 1.2em;
+			}
+		}
+	}
+	.list-posts.list-post-style_2 {
+		.post_list_content_unit {
+			.post_list_item_excerpt {
+				display: none;
+			}
+			.wrapper-meta > div {
+				display:       block;
+				margin-bottom: 8px;
+			}
+			//.img_post.feature-image {
+			//	width:        100%;
+			//	margin-right: 0;
+			//}
+		}
+	}
+}

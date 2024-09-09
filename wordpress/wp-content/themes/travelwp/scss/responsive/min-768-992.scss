@@ -1,0 +1,20 @@
+@media (min-width: 768px) and (max-width: 992px) {
+	.content-area {
+		.site-main, .widget-area {
+			width: 100%;
+			float: none;
+		}
+	}
+
+	.slider-tour-booking, .banner-tour-booking {
+		margin-top: -222px;
+	}
+	.fix-ipad-deals-discounts {
+		.vc_col-sm-8 {
+			width: 100%;
+		}
+	}
+	.tab-search-tour-hotel {
+		margin-top: -291px;;
+ 	}
+}

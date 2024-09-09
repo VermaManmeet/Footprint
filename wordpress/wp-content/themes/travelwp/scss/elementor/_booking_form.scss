@@ -1,0 +1,17 @@
+.elementor-widget-travel-booking-form {
+    .tour-booking-type-both {
+        padding: 0px;
+        .group-from-booking {
+            .nav-tabs-item {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                overflow: hidden;
+                margin: 0px;
+                li {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.thim-ekit-single-product__related {
+    .thim-ekit-archive-product__grid {
+        margin: 0px;
+        display: grid;
+        row-gap: var(--phys-ekits-product-row-gap, 30px);
+        column-gap: var(--phys-ekits-product-column-gap, 30px);
+        &::before {
+            display: none !important;
+        }
+    }
+}
+body .thim-ekits-archive-product .thim-ekits-product ul.products {
+    row-gap: var(--phys-ekits-product-row-gap, 30px) !important;
+    column-gap: var(--phys-ekits-product-column-gap, 30px) !important;
+}

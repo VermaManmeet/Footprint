@@ -1,0 +1,153 @@
+/*!
+Theme Name: TravelWP
+Theme URI: https://travelwp.physcode.com/
+Author: Physcode
+Author URI: https://physcode.com/
+Description: Description
+Version: 2.0.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: travelwp
+Tags: two-columns, left-sidebar, right-sidebar, editor-style, rtl-language-support, sticky-post, theme-options, translation-ready, translation-ready
+
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+travelWP is based on physcode http://physcode.com/, (C) 2012-2015 Automattic, Inc.
+physcode is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+// ----------------------------------------------------------------------
+// Base
+// ----------------------------------------------------------------------
+
+/*!--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Variables
+2.0 - Mixins
+3.0 - Reset
+4.0 - Shortcode
+5.0 - Tours
+6.0 - WooCommerce
+7.0 - Header
+	7.1 - Main menu
+	7.2 - Mega menu
+	7.3 - Topbar
+8.0 - Breadcrumb
+9.0 - Blog
+	9.1 - Sidebar
+	9.2 - Archive
+	9.3 - Single
+10.0 - Footer
+11.0 - Search Box
+12.0 - Responsive
+
+
+--------------------------------------------------------------*/
+
+/*!--------------------------------------------------------------
+1.0 - Variables
+2.0 - Mixins
+3.0 - Reset
+----------------------------------------------------------------*/
+@import "base/variable";
+@import "base/mixin";
+@import "reset";
+@import "varibles";
+/*!--------------------------------------------------------------
+4.0 - Shortcode
+----------------------------------------------------------------*/
+@import "shortcode/title";
+@import "shortcode/icon-box";
+@import "shortcode/tour_type";
+@import "shortcode/stats_counter";
+@import "shortcode/mb-comingsoon";
+@import "shortcode/special-tours";
+@import "shortcode/gallery";
+/*!--------------------------------------------------------------
+5.0 - Tours
+----------------------------------------------------------------*/
+
+@import "tour/tour-reviews";
+@import "tour/content-tour";
+@import "tour/single-tour";
+@import "tour/tour_search";
+/*!--------------------------------------------------------------
+6.0 - WooCommerce
+----------------------------------------------------------------*/
+
+@import "woocommerce/woocommerce";
+@import "woocommerce/contentProduct";
+@import "woocommerce/single-product";
+@import "woocommerce/checkout";
+@import "woocommerce/page-cart";
+@import "woocommerce/account";
+@import "woocommerce/mini-cart";
+@import "hotel";
+@import "login";
+/*!--------------------------------------------------------------
+7.0 - Header
+----------------------------------------------------------------*/
+
+@import "header";
+@import "mainmenu";
+/*!--------------------------------------------------------------
+8.0 - breadcrumb
+----------------------------------------------------------------*/
+
+@import "breadcrumb";
+@import "banner-search";
+/*!--------------------------------------------------------------
+9.0 - Blog
+----------------------------------------------------------------*/
+
+@import "sidebar";
+@import "single";
+@import "archive";
+/*!--------------------------------------------------------------
+10.0 - Search
+----------------------------------------------------------------*/
+
+@import "search";
+/*!--------------------------------------------------------------
+11.0 - Footer
+----------------------------------------------------------------*/
+
+@import "footer";
+//@import "datepicker";
+/*!--------------------------------------------------------------
+12.0 - Responsive
+----------------------------------------------------------------*/
+
+@import "template";
+@import "responsive/min-993-1200";
+@import "responsive/min-768-992";
+@import "responsive/min-768";
+@import "responsive/max-767";
+@import "responsive/max-600";
+@import "responsive/max-480";
+@import "responsive/max-380";
+@import "responsive/max-320";
+///*!--------------------------------------------------------------
+//13.0 - Elementor
+//----------------------------------------------------------------*/
+//@import "elementor/list_tours";
+@import "elementor/list_attributes";
+@import "elementor/search_tour";
+@import "elementor/custom-title";
+@import "elementor/post-load-ajax";
+@import "elementor/anchor-tabs";
+@import "elementor/item_tour";
+//@import "elementor/list_blog";
+//@import "elementor/share-post";
+//@import "elementor/product_related";
+//@import "elementor/booking_form";
+///*!--------------------------------------------------------------
+//14.0 - New home
+//----------------------------------------------------------------*/
+@import "demo-new";

@@ -1,0 +1,236 @@
+@media (max-width: 480px) {
+	.tours-type-pain {
+		.item-tour {
+			width: 100%;
+			float: none;
+		}
+	}
+	.images_single_left .tour_after_title {
+		.meta_date, .meta_values, .single-adults-children, .tour-share {
+			width: 100%;
+		}
+	}
+	.images_single_left .tour_after_title .tour-share {
+		width:      100%;
+		text-align: left;
+	}
+	.form-subscribe-form-wrap {
+		.mc4wp-form, .epm-sign-up-form {
+			.mc4wp-email, .email {
+				width: auto;
+			}
+		}
+	}
+	.form-subscribe {
+		padding: 50px 15px;
+	}
+	.woocommerce, .woocommerce-page {
+		ul.products li.product {
+			width: 100%;
+		}
+	}
+	.wrapper-blog-content {
+		article {
+			.img_post {
+				width:         100%;
+				margin-bottom: 20px;
+				margin-right:  0;
+				img {
+					width: 100%;
+				}
+			}
+			.content-thumbnail {
+				width:        100%;
+				padding-left: 0;
+			}
+		}
+	}
+	.list-posts {
+		.post_list_content_unit {
+			width: 100%;
+			float: left;
+		}
+	}
+	.custom-instagram {
+		#sb_instagram .sbi_item {
+			width: 50% !important;
+			.sbi_photo {
+				height: 130px !important;
+			}
+		}
+	}
+	.counter-group {
+		margin: 0 auto;
+		width: 100%;
+		display: flex;
+		padding: 0 13px;
+	}
+	.counter-block {
+		margin-right: 3px;
+		margin-left: 3px;
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		float: unset;
+		.counter {
+			width:  100%;
+			height: 64px;
+			.number {
+				font-size:   56px;
+				line-height: 63px;
+				width: calc(50% - 2px);
+			}
+			&.with-hundreds {
+				width: 144px;
+			}
+		}
+		.counter-caption {
+			font-size: 85%;
+		}
+	}
+	.sc-gallery .gallery-tabs-wrapper.filters li {
+		&:first-child {
+			border-left: none;
+		}
+		&:last-child {
+			border-right: none;
+		}
+		a {
+			padding: 0 15px;
+		}
+	}
+	//top_site_main
+	.top_site_main {
+		.banner-wrapper-destination {
+			padding-top:    40px;
+			padding-bottom: 40px;
+		}
+	}
+	.tours-type-pain {
+		.tours_type_item {
+			width: 50%;
+			&.width2x3 {
+				width: 100%;
+			}
+			&:nth-child(3) {
+				clear: none;
+			}
+		}
+	}
+	.wrapper-blog-content article .entry-content {
+		overflow: visible;
+	}
+	.border-below h2 {
+		font-size: 2.6em;
+	}
+	.wrapper-special-tours {
+		margin: 0;
+		.inner-special-tours {
+			width:   100%;
+			float:   none;
+			padding: 0;
+			a > img {
+				width: 100%;
+			}
+			.item_price {
+				right: 0;
+			}
+		}
+	}
+	.hotel_info {
+		margin: 0;
+		@include clearfix();
+		.column {
+			width:   100%;
+			float:   none;
+			padding: 0;
+		}
+	}
+	.gallery .gallery-item {
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 420px) {
+	.form-subscribe-form-wrap {
+		.mc4wp-form, .epm-sign-up-form {
+			text-align: left;
+			border:     none;
+			width:      100%;
+			.epm-form-field {
+				margin-bottom: 10px;
+			}
+			.mc4wp-email, .email, .epm-form-field, .epm-sign-up-button {
+				width: 100%;
+			}
+			.epm-sign-up-button {
+				margin: 0 !important;
+			}
+		}
+	}
+	.wrapper-tours-slider .item-tour {
+		width: 100%;
+	}
+	.two-column-respon {
+		.wpb_column {
+			width: 100%;
+			float: none;
+		}
+	}
+	.site-header .navbar-nav .menu-right {
+		display: none !important;
+	}
+
+	.tours-tabs_table {
+		border-bottom: none;
+		tr {
+			display: block;
+		}
+		td,
+		th {
+			display: block;
+			padding: 15px 0;
+		}
+		table {
+			tr,
+			td,
+			th {
+				padding: 0;
+			}
+		}
+	}
+	.fix-col-responsive.vc_row.vc_column-gap-15 {
+		> .vc_column_container {
+			padding: 0;
+		}
+	}
+	.interary-item {
+		//min-height: 50px;
+		.icon-left {
+			width: 50px;
+			min-width:  50px;
+			height: 50px;
+			line-height: 45px;
+			font-size: 20px;
+		}
+		.item_content {
+			padding-left: 55px;
+		}
+	}
+
+	.tours_type_item,
+	.tours-type-slider .tours_type_item {
+		width: 100%;
+	}
+}
+
+@media (max-height: 480px) {
+	.slider-tour-booking {
+		margin-top: -35px;
+	}
+	.home-content {
+		.slider-tour-booking {
+			background: rgb(67, 67, 67) !important;
+		}
+	}
+}

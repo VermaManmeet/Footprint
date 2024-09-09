@@ -1,0 +1,232 @@
+.wrapper-subscribe {
+	background-position: center bottom;
+	background-repeat: repeat;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	//z-index:             -1;
+	width: 100%;
+	background-size: cover;
+}
+
+.wrapper-footer {
+	z-index: 1;
+	position: relative;
+
+	.wrapper-copyright {
+		padding-top: 20px;
+		padding-bottom: 15px;
+	}
+
+	a {
+		color: #fff;
+	}
+
+	.main-top-footer {
+		padding: 60px 0 50px 0;
+		position: relative;
+
+		.widget-title {
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+		.widget_media_gallery{
+			.gallery{
+				margin: 0 -5px 1.5em -5px;
+			}
+			.gallery-item{
+				padding: 5px;
+			}
+		}
+	}
+
+	ul {
+		margin: 0;
+
+		li {
+			list-style: none;
+		}
+	}
+}
+
+//.wrapper-footer-newsletter .wrapper-copyright {
+//	text-align: center;
+//
+//	.textwidget > ul {
+//		text-align: center;
+//		//margin-top: 8px;
+//	}
+//}
+
+.list-arrow {
+	li {
+		margin-bottom: 0;
+
+		a {
+			border-bottom: 1px solid #5b6366;
+			position: relative;
+			display: block;
+			padding: 5px 10px 5px 20px;
+
+			&:after {
+				content: "\f105";
+				display: block;
+				position: absolute;
+				width: 5px;
+				height: 7px;
+				z-index: 10;
+				top: 50%;
+				@include transform(translateY(-50%));
+				left: 2px;
+				margin-top: -5px;
+				font-family: 'Font Awesome 5 Free';
+				font-weight: 600;
+				font-size: 14px;
+				line-height: 1;
+			}
+		}
+
+		&:last-child {
+			a {
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+.wrapper-instagram {
+	margin: 0 -5px;
+	overflow: hidden;
+
+	a {
+		float: left;
+		width: 33.333%;
+		padding: 5px;
+	}
+}
+
+.form-subscribe {
+	padding: 80px 0;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	z-index: 1;
+}
+
+.subscribe_shadow {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.form-subscribe__title {
+	margin-bottom: 5px;
+	color: #fff;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.form-subscribe__description {
+	font-size: 1.200em;
+	margin-bottom: 20px;
+}
+
+.form-subscribe-form-wrap {
+	position: relative;
+}
+
+.form-subscribe-form-wrap {
+	.mc4wp-form, .epm-sign-up-form {
+		display: inline-block;
+		line-height: 50px;
+		width: auto;
+		border: 10px solid rgba(0, 0, 0, 0.2);
+		border-radius: 3px;
+
+		label, .epm-form-field {
+			margin: 0;
+			width: auto;
+			position: relative;
+			float: left;
+		}
+
+		.mc4wp-email, .email {
+			display: inline-block;
+			width: 390px;
+			height: 50px;
+			line-height: 50px;
+			margin: 0;
+			padding: 0 20px;
+			border: none;
+			outline: 0;
+			border-radius: 0;
+			background: #fff;
+			color: #333;
+			float: left;
+		}
+
+		.mc4wp-submit-button, .epm-sign-up-button {
+			display: inline-block;
+			height: 50px;
+			width: auto;
+			margin: 0 0 0 -5px !important;
+			padding: 0 30px;
+			border: none;
+			border-radius: 0;
+			color: #333;
+			text-transform: uppercase;
+			font-style: normal;
+			vertical-align: top;
+
+			&:focus {
+				outline: none;
+			}
+
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+
+	.epm-sign-up-form .epm-form-field label {
+		display: none
+	}
+}
+
+.form-subscribe input {
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	border: none;
+	background: #fff;
+	border-radius: 3px;
+}
+
+.form.mc4wp-form input {
+	width: auto !important
+}
+
+.contact-info {
+	a {
+		color: #ccc;
+	}
+}
+
+#copyright {
+	padding-top: 10px;
+}
+
+.footer_menu {
+	text-align: right;
+	margin: 0;
+
+	li {
+		display: inline-block;
+		margin-left: 10px;
+		list-style: none;
+	}
+}

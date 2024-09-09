@@ -1,0 +1,279 @@
+.site-header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.affix-top .menu-mobile-effect span {
+	background-color: white;
+}
+
+.navigation-menu {
+	padding-top: 16px;
+	background: #fff;
+	@include transition(all 0.3s ease-in-out);
+	padding-bottom: 15px;
+}
+
+.dropdown-menu {
+	border-radius: 0;
+	padding: 0;
+	margin: 12px 0 0 0;
+
+	li {
+		margin-bottom: 0;
+	}
+}
+
+.search-toggler-unit {
+	//padding-top: 15px;
+	.search-toggler {
+		display: block;
+		position: relative;
+		padding: 4px 8.5px;
+		background-color: transparent;
+		overflow: hidden;
+		cursor: pointer;
+
+		.fa {
+			position: relative;
+			z-index: 2;
+		}
+
+		&:before {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: -100%;
+			top: 0;
+			z-index: 0;
+			@include transition(all 0.25s cubic-bezier(0.66, 0.36, 0.17, 0.91));
+		}
+
+		&:hover {
+			color: #fff;
+
+			&:before {
+				left: 0;
+			}
+		}
+	}
+}
+
+.header_top_bar {
+	background-color: #333;
+	color: #aaa;
+	font-size: 12px;
+	font-weight: 700;
+
+	a {
+		font-weight: 700;
+		font-style: normal;
+		color: #aaa;
+		font-size: 12px;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	.top_bar_info {
+		list-style: none;
+		padding: 0;
+		margin: 11px 0 12px;
+
+		li {
+			float: left;
+			margin-left: 25px;
+			margin-bottom: 0;
+			line-height: 14px;
+
+			.fa {
+				font-size: 14px;
+				margin-right: 5px;
+			}
+
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+
+	.topbar-right {
+		text-align: right;
+
+		.widget {
+			display: inline-block;
+			vertical-align: middle;
+			margin-bottom: 0;
+			margin-left: 25px;
+			text-align: left;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			&.widget_login_form {
+				white-space: nowrap;
+				text-align: right;
+
+				a,
+				span {
+					&:hover {
+						color: var(--phys-link_color_top_bar, #ffffff);
+					}
+				}
+			}
+		}
+	}
+
+	.header_login_url {
+		line-height: 1;
+
+		a {
+			display: inline-block;
+			vertical-align: bottom;
+			text-decoration: none !important;
+			line-height: 1;
+
+			i {
+				margin-right: 4px;
+			}
+		}
+
+		.vertical_divider {
+			display: inline-block;
+			vertical-align: bottom;
+			margin: 0 8px 0;
+			width: 1px;
+			height: 12px;
+			background-color: #9a9a9a;
+		}
+	}
+
+	.country-selector {
+		z-index: 9;
+
+		.wgcurrent {
+			border: none;
+
+			&:after {
+				font-family: "Font Awesome 5 Free";
+				font-weight: 600;
+				content: "\f107";
+				background: none !important;
+				width: 14px;
+				height: 14px;
+				text-align: center;
+				line-height: 14px;
+				top: 12px;
+			}
+
+			a {
+				border: none;
+				height: inherit;
+				line-height: 1;
+				background: transparent;
+				padding-top: 12px;
+				padding-bottom: 12px;
+				padding-right: 35px;
+				color: inherit;
+			}
+		}
+	}
+
+	.wg-drop.country-selector {
+		background: transparent;
+
+		&.closed {
+			.wgcurrent:after {
+				content: "\f105";
+				@include transform(rotate(0deg));
+			}
+		}
+	}
+
+	.qtranxs_widget {
+		.widget-title {
+			display: none;
+		}
+
+		select {
+			padding: 10px 10px 10px 0;
+			background: transparent;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+
+			&:focus {
+				outline: none;
+			}
+
+			option {
+				color: #333;
+			}
+		}
+	}
+}
+
+.header_main_menu_wrapper .navbar-collapse {
+	padding: 0;
+}
+
+.logo_sticky {
+	display: none;
+}
+
+.site-header {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.transparent_home_page {
+	.affix-top .navigation-menu {
+		background: transparent !important;
+	}
+
+	.affix-top {
+		.header-menu > li > a {
+			color: #fff;
+		}
+	}
+
+	.site-header {
+		box-shadow: 0 0 0;
+
+		&.affix {
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+			-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+		}
+	}
+}
+
+.sticky_header.affix {
+	position: fixed;
+	top: 0;
+
+	.header_top_bar {
+		height: 0;
+		overflow: hidden;
+	}
+
+	.navigation-menu {
+		padding-top: 9px;
+		padding-bottom: 8px;
+	}
+
+	.logo_sticky {
+		display: block;
+	}
+
+	.logo_transparent_static {
+		display: none;
+	}
+}

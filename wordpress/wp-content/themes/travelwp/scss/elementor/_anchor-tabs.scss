@@ -1,0 +1,43 @@
+.thim-tour-scroll-anchor {
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+            margin-right: calc(64px / 2);
+            margin-left: calc(64px / 2);
+            a {
+                color: $body_color;
+                .anchor-item-text {
+                    position: relative;
+                    &::before {
+                        transition: all 0.25s ease;
+                        content: "";
+                        position: absolute;
+                        height: 2px;
+                        width: 29px;
+                        text-align: center;
+                        z-index: 10;
+                        top: 45px;
+                        margin: 7px auto 0px;
+                        visibility: hidden;
+                        opacity: 0;
+                        background: $body_color_primary;
+                        left: 50%;
+                        transform: translate(-50%, -25px);
+                    }
+                }
+                &.active,
+                &:hover {
+                    color: $body_color_primary;
+                    .anchor-item-text::before {
+                        visibility: visible;
+                        opacity: 1;
+                        z-index: 9;
+                    }
+                }
+            }
+        }
+    }
+}

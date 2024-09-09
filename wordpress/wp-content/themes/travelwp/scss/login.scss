@@ -1,0 +1,223 @@
+.widget_login_form {
+	span, > a {
+		cursor: pointer;
+		padding: 7px 0;
+		display: inline-block;
+
+		&:hover {
+			color: $body_color_primary;
+		}
+	}
+
+	.status {
+		font-weight: normal;
+		font-style: italic;
+	}
+
+	label.error {
+		display: none !important;
+	}
+
+	.login {
+		i {
+			margin-right: 5px
+		}
+	}
+
+	.register_btn {
+		margin-left: 25px;
+		position: relative;
+
+		&:before {
+			content: "|";
+			position: absolute;
+			left: -15px;
+		}
+	}
+
+	.form_popup {
+		@include transform(translateY(-100%));
+		visibility: hidden;
+		position: fixed;
+		outline: none;
+		-webkit-overflow-scrolling: touch;
+		z-index: 999;
+		@include transition(all 0.4s ease-in-out);
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+
+		&:focus {
+			outline: none;
+		}
+
+		.closeicon {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			width: 20px;
+			height: 20px;
+			opacity: 1;
+			z-index: 999;
+			cursor: pointer;
+
+			&:before {
+				transform: rotate(45deg);
+			}
+
+			&:after {
+				transform: rotate(-45deg);
+			}
+
+			&:before, &:after {
+				position: absolute;
+				left: 10px;
+				content: ' ';
+				height: 22px;
+				width: 1px;
+				background-color: #000;
+			}
+		}
+
+		.inner-form {
+			@include transition(-webkit-transform .3s ease-out);
+			width: 400px;
+			// margin:     50px auto 20px auto;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			padding: 25px;
+			background: #fff;
+			position: relative;
+			color: #333;
+			text-align: left;
+			display: none;
+
+			h3 {
+				margin-bottom: 25px;
+				margin-top: 0;
+				text-transform: uppercase;
+				font-weight: 700;
+			}
+
+			form {
+				@include clearfix();
+			}
+
+			p {
+				label {
+					display: block;
+					line-height: 15px;
+					font-weight: normal;
+				}
+
+				input[type="password"], input[type="text"], input[type="email"] {
+					width: 100%;
+					border: 1px solid #ddd !important;
+					padding: 10px 15px;
+					font-weight: normal;
+				}
+
+				&.login-remember {
+					@include clearfix();
+					margin-bottom: 0;
+					margin-top: 10px;
+					width: 50%;
+					float: left;
+
+					input[type="checkbox"] {
+						float: left;
+						margin-top: 0;
+						margin-right: 4px;
+					}
+				}
+
+				&.login-submit {
+					@include clearfix();
+					width: 50%;
+					float: left;
+				}
+
+				input[type="submit"] {
+					width: 100%;
+					padding: 12px 15px;
+					text-align: center;
+					background: #2a2a2a;
+					color: #fff;
+					border: none;
+					text-transform: uppercase;
+					max-width: 190px;
+				}
+			}
+
+			.lost-pass {
+				color: #333;
+				font-weight: normal;
+				font-style: italic;
+			}
+		}
+
+		.apsl-login-networks {
+			margin-top: 20px;
+		}
+
+	}
+}
+
+.show_form_popup_login, .show_form_popup_register {
+	overflow: hidden;
+
+	.widget_login_form {
+		.background-overlay {
+			content: '';
+			display: block;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.8);
+			z-index: 99;
+			transition: all 0.35s cubic-bezier(0.29, 0.63, 0.44, 1);
+		}
+	}
+}
+
+.show_form_popup_login {
+	.widget_login_form .from_login {
+		text-align: left;
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-transition: -webkit-transform .4s ease-in-out;
+		transition: -webkit-transform .4s ease-in-out;
+		transition: transform .4s ease-in-out;
+		transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+
+		.inner-form {
+			display: block;
+		}
+	}
+}
+
+.show_form_popup_register {
+	.widget_login_form .from_register {
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-transition: -webkit-transform .4s ease-in-out;
+		transition: -webkit-transform .4s ease-in-out;
+		transition: transform .4s ease-in-out;
+		transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+
+		.inner-form {
+			display: block;
+		}
+	}
+}

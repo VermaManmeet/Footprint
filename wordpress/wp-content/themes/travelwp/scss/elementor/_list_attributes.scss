@@ -1,0 +1,25 @@
+.list-attri-thumbnail {
+	.content-item {
+		.item__title {
+			margin-top: 0;
+		}
+	}
+}
+
+.list-attri-thumbnail.overlay {
+	.content-item{
+		overflow: hidden;
+	}
+	.content-item-hover {
+		//opacity: 0;
+		transition: all 1.5s;
+		visibility: hidden;
+		max-height: 0;
+	}
+
+	&:hover .content-item-hover {
+		//opacity: 1;
+		visibility: visible;
+		max-height: 600px;
+	}
+}

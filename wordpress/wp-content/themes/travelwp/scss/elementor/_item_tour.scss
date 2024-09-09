@@ -1,0 +1,213 @@
+.travel-tour-item-wapper {
+    padding: 16px;
+    background: #e6f7f4;
+    border-radius: 16px;
+    display: flex;
+    gap: 16px;
+    @media (max-width: 767px) {
+        flex-wrap: wrap;
+        > div {
+            width: 100% !important;
+        }
+    }
+    .travel-tour-item-img {
+        width: 20%;
+        @media (max-width: 1024px) {
+            width: 30%;
+        }
+        img {
+            border-radius: 4px;
+            height: 158px;
+            max-width: 158px;
+            object-fit: cover;
+            @media (max-width: 767px) {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .travel-tour-item-content {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        align-content: center;
+        @media (max-width: 1024px) {
+            width: 50%;
+        }
+        > div {
+            width: 100%;
+        }
+        .travel-tour-item-title {
+            margin: 0;
+        }
+        .travel-tour-item-rattings {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            .star-rating {
+                float: unset;
+                margin-top: -4px;
+                font-size: 0.945em;
+            }
+            .number-average-rating {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.3;
+                color: var(--phys-heading-color);
+            }
+        }
+        .travel-tour-item-service {
+            .travel-tour-item-duration {
+                margin-bottom: 4px;
+                text-transform: lowercase;
+            }
+            .travel-tour-item-duration,
+            .travel-tour-item-cancel {
+                svg {
+                    margin-right: 6px;
+                    vertical-align: sub;
+                }
+                font-size: 14px;
+                line-height: 1.3;
+                font-weight: 500;
+                // text-transform: capitalize;
+            }
+        }
+    }
+    .travel-tour-item-right {
+        width: 20%;
+        text-align: right;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-end;
+        justify-content: space-between;
+        position: relative;
+        align-items: flex-end;
+        @media (max-width: 767px) {
+            text-align: left;
+            align-content: flex-start;
+        }
+        .travel-tour-item-price {
+            margin-top: 20px;
+            @media (max-width: 767px) {
+                margin-top: 0;
+                position: absolute;
+                right: 0;
+                top: -56px;
+            }
+            > span {
+                display: block;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 1.3;
+            }
+            .woocommerce-Price-amount {
+                color: var(--phys-heading-color);
+                font-weight: 700;
+                line-height: 1.25;
+                font-size: 16px;
+            }
+            del {
+                @media (min-width: 769px) {
+                    margin-right: 10px;
+                }
+                .woocommerce-Price-amount {
+                    opacity: 0.6;
+                }
+            }
+            ins {
+                .woocommerce-Price-amount {
+                    color: var(--phys-heading-color);
+                    font-weight: 700;
+                    line-height: 1.25;
+                }
+            }
+        }
+        .item-tour-link {
+            padding: 12px 16px 12px 16px;
+            border-radius: 200px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.3;
+            background: var(--phys-body_color_primary, #ffb300);
+            color: #fff;
+            width: 100%;
+            max-width: 94px;
+            &:hover {
+                background: var(--phys-body_color_second);
+                color: #fff;
+            }
+        }
+    }
+}
+
+.tours-interary-items {
+    .interary-toggle {
+        &.interary-item {
+            margin-bottom: 12px !important;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &::before {
+                display: none;
+            }
+            padding: 20px;
+            border: 1px solid #e8edf1;
+            border-radius: 16px;
+            @media (max-width: 767px) {
+                padding-right: 30px;
+            }
+            .item_content {
+                display: block;
+                width: 100%;
+                @media (max-width: 767px) {
+                    overflow: visible;
+                }
+                h3 {
+                    position: relative;
+                    width: 100%;
+                    margin: 0;
+                    cursor: pointer;
+                    &::after {
+                        content: "\f067";
+                        position: absolute;
+                        top: 50%;
+                        right: 0;
+                        transform: translate(-0%, -50%);
+                        font-family: thim-ekits !important;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-variant: normal;
+                        text-transform: none;
+                        line-height: 1;
+                        font-size: 12px;
+                        @media (min-width: 769px) {
+                            right: -14px;
+                        }
+                    }
+                    &.active {
+                        margin-bottom: 24px;
+                        color: $body_color_primary;
+                        &::after {
+                            content: "\f068";
+                            color: $body_color_second;
+                        }
+                    }
+                }
+                .interary-toggle-content {
+                    display: none;
+                    transition: all 0.3s ease-out;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1024px) {
+    body .flatWeatherPlugin .wiToday .wiIconGroup div.wi {
+        font-size: 79px;
+        right: -26px;
+        top: -43px;
+    }
+}

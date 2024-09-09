@@ -1,0 +1,189 @@
+.travel-booking-search {
+	position: relative;
+	margin-bottom: 3px;
+	margin: 0 -10px;
+
+	form {
+		display: block;
+		padding: 20px 0;
+		margin: 0 auto;
+		@include clearfix();
+
+		button {
+			width: 100%;
+			padding: 9px 8px 5px 8px;
+			border: none;
+			color: #333;
+			text-transform: uppercase;
+			background: $body_color_primary;
+			box-shadow: 0 2px 0 0 rgba(255, 210, 0, 0.6);
+
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+
+	.hb-form-table li {
+		width: 20%;
+		padding: 0 10px;
+		margin: 10px 0;
+		float: left;
+		list-style: none;
+	}
+
+	.hb-form-table {
+		@include clearfix();
+		margin: 0;
+	}
+
+	.hb-form-field {
+		position: relative;
+		display: inline-block;
+
+		input, select, button, textarea {
+			outline: 0;
+			position: relative;
+			width: 100%;
+			height: 40px;
+			border: none;
+			background: #fff;
+			color: #333;
+			border-radius: 0;
+			padding: 7px 8px;
+			line-height: 24px;
+			-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+			-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+			transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+			@include placeholder-color(#555);
+
+			.elementor-widget-travel-search-tour & {
+				height: auto;
+			}
+		}
+
+		button {
+			background: $body_color_primary;
+
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+
+	.hb-form-field-select {
+		position: relative;
+
+		select {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			text-indent: 1px;
+		}
+
+		&:before {
+			content: "";
+			width: 0;
+			height: 0;
+			border-left: 4px solid transparent;
+			border-right: 4px solid transparent;
+			border-top: 6px solid #333;
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			margin-top: -3px;
+			z-index: 1;
+		}
+
+		.elementor-widget-travel-search-tour & {
+			&:before {
+				display: none;
+			}
+
+			select {
+				background-image: url("images/angle-down.svg?v=1");
+				background-position: calc(100% - 8px) center;
+				background-repeat: no-repeat;
+				padding-right: 2em !important;
+				background-size: 16px;
+			}
+		}
+	}
+
+	&.travel-booking-style_2 {
+		.hb-form-table li {
+			margin: 0;
+			width: 21.5%;
+
+			&.hb-submit {
+				width: 14%;
+			}
+		}
+
+		input, select {
+			border: none !important;
+			height: 32px;
+			font-weight: bold;
+			padding-top: 0 !important;
+			color: #333;
+			@include placeholder-color(#484848);
+			text-transform: capitalize;
+		}
+
+		.hb-submit button {
+			height: 60px;
+			box-shadow: 0 0 0;
+		}
+
+		.hb-form-field-input, .hb-form-field-select {
+			label {
+				font-weight: normal;
+				padding-left: 10px;
+				color: #999;
+				opacity: 0.8;
+				margin-top: 6px;
+				display: block;
+				margin-bottom: -4px;
+			}
+		}
+
+		.hb-form-field-select {
+			&:after {
+				content: "";
+				width: 1px;
+				background: $border_color;
+				top: -14px;
+				bottom: 0;
+				position: absolute;
+				left: -10px;
+			}
+
+			&:before {
+				content: "\e874";
+				font: normal normal normal 18px/1 'Linearicons-Free';
+				border: none;
+				width: auto;
+				height: auto;
+				margin-top: -9px;
+			}
+		}
+	}
+}
+
+.slider-tour-booking {
+	margin-top: -135px;
+	position: relative;
+	z-index: 2;
+
+	.vc_column-inner {
+		padding-top: 0 !important;
+	}
+}
+
+.banner-tour-booking {
+	margin-top: -100px;
+	position: relative;
+
+	.vc_column-inner {
+		padding-top: 0 !important;
+	}
+}

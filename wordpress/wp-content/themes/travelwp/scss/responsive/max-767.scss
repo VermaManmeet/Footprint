@@ -1,0 +1,728 @@
+@media (max-width: 993px) {
+	.travel-booking-search {
+		form {
+			padding: 20px 0;
+		}
+		.hb-form-table {
+			width: 100%;
+			li {
+				width: 50%;
+				&.hb-submit {
+					width:      100%;
+					text-align: center;
+					margin-top: 20px;
+					button {
+						width: 50%;
+					}
+				}
+			}
+		}
+		&.travel-booking-style_2 {
+			.hb-form-table {
+				width: 100%;
+				li {
+					width: 50%;
+					&.hb-submit {
+						width:      100%;
+						text-align: center;
+						button {
+							width: 50%;
+						}
+					}
+				}
+			}
+			.hb-form-field-select:after {
+				display: none;
+			}
+		}
+	}
+	.search-toggler-unit .search-toggler {
+		display: inline-block;
+	}
+	.item-list-tour .content-list-tour .wrapper_content {
+		padding: 20px;
+		&:before {
+			right: 150px;
+		}
+		.content-left {
+			padding-right: 20px;
+			width:         calc(100% - 134px);
+			.post_date {
+				margin-top: 10px;
+			}
+		}
+		.content-right {
+			width:        130px;
+			padding-left: 20px;
+			.add_to_cart_button, .product_type_tour_phys {
+				padding:     0 15px;
+				font-weight: normal;
+				font-size:   90%;
+			}
+		}
+	}
+
+	.woocommerce, .woocommerce-page {
+		ul.products li.product {
+			width: 50%;
+			float: left;
+			&:nth-child(3n+1) {
+				clear: none !important;
+			}
+			&:nth-child(2n+1) {
+				clear: both;
+			}
+		}
+	}
+
+	.navbar-nav > li > a {
+		padding-top:    6px;
+		padding-bottom: 6px;
+	}
+	.site-header .navbar-nav {
+		.menu-right {
+			margin-top: 15px;
+			ul {
+				margin-left: 15px;
+			}
+		}
+		.sub-menu {
+			li:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+	.fix-col-responsive {
+		.wpb_column {
+			width: 100%;
+			.list-posts {
+				margin-left:  0;
+				margin-right: 0;
+			}
+		}
+	}
+
+	.navbar-toggle {
+		float:          none;
+		display:        inline-block;
+		vertical-align: middle;
+		padding:        9px 25px;
+	}
+
+	.header_v1 {
+		.wrapper-logo {
+			display: none
+		}
+		&.affix-top .sticky-logo {
+			display: block;
+		}
+	}
+	.site-header .navbar-nav {
+		margin:     0;
+		li {
+			list-style: none;
+			position:   relative;
+			display:    block;
+		}
+		text-align: left;
+		.sub-menu {
+			position:   relative;
+			background: transparent;
+			li {
+				border: none !important;
+				a {
+					padding-left: 15px !important;
+				}
+			}
+		}
+	}
+
+	.navbar-nav .sub-menu {
+		overflow: hidden;
+		.sub-menu {
+			margin-left:   20px;
+			margin-top:    10px;
+			margin-bottom: 5px;
+		}
+	}
+
+	.nav > li > span {
+		padding: 10px 15px;
+	}
+
+	.site-header .navigation-menu {
+		padding: 10px 0;
+
+		.width-navigation {
+			display: block;
+		}
+	}
+
+	.side-nav {
+		position:       fixed;
+		width:          240px;
+		left:           -105%;
+		top:            0;
+		margin:         0;
+		padding-bottom: 60px;
+		z-index:        999;
+		overflow-y:     auto;
+		will-change:    left;
+		padding-top:    20px;
+		height:         100%;
+		background:     #000;
+		&.right-aligned {
+			will-change: right;
+			right:       -105%;
+			left:        auto;
+		}
+		.collapsible {
+			margin: 0;
+		}
+		li {
+			float: none;
+			.sub-menu {
+				margin:      0;
+				margin-left: 15px;
+			}
+		}
+		a {
+			display: block;
+			padding: 1px 15px;
+		}
+	}
+
+	.nav > li > a:hover, .nav > li > a:focus {
+		background: transparent;
+	}
+
+	.navbar-nav {
+		margin: 0;
+		li {
+			list-style: none;
+			position:   relative;
+		}
+		.menu-right {
+			.widget_shopping_cart {
+				padding-right: 20px;
+			}
+		}
+		.sub-menu {
+			li {
+				margin-top: 9px;
+			}
+			.sub-menu {
+				margin-left: 20px;
+			}
+		}
+	}
+
+	.menu-mobile-effect {
+		float:          none;
+		display:        inline-block;
+		cursor:         pointer;
+		z-index:        1;
+		vertical-align: middle;
+		padding:        0;
+		margin:         0 15px 0 0;
+		span {
+			background-color: #fff;
+		}
+	}
+
+	.sub-menu {
+		position: relative;
+		li {
+			border: none !important;
+			a {
+				padding-left: 25px !important;
+			}
+		}
+	}
+
+	.nav > li > span {
+		padding: 10px 15px;
+	}
+	.woocommerce-checkout .columns {
+		.order-wrapper {
+			margin-left: 0;
+			margin-top:  20px;
+		}
+	}
+	//top_site_main
+	.top_site_main {
+		.banner-wrapper-destination {
+			padding-top:    80px;
+			padding-bottom: 80px;
+			.desc {
+				margin: 0 auto 40px auto;
+			}
+		}
+	}
+	.tours-type-slider .tours_type_item {
+		width: 100%
+	}
+	.tours-type-slider .item-tour {
+		width: 100%;
+	}
+	.tours-type-pain {
+		.tours_type_item {
+			.count-attr {
+				font-size: 1em;
+			}
+			.item__title {
+				font-size: 1.6em;
+			}
+		}
+	}
+	.tabs-fixed-scroll {
+		display: none;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.alignright, .alignleft {
+		float: none;
+	}
+	.widget-icon-box, .stats_counter {
+		margin-bottom: 25px;
+	}
+	.header_top_bar {
+		display: none;
+	}
+	.wrapper-tours-slider {
+		margin: 0 -10px;
+		.item-tour {
+			padding: 0 10px;
+		}
+	}
+	.related.tours {
+		.wrapper-tours-slider .item-tour {
+			padding: 0 15px;
+		}
+	}
+	.travel-booking-search {
+		margin: 0 -10px;
+	}
+	.tours-type-pain {
+		.item-tour {
+			width: 50%;
+			float: left;
+			&.col-sm-3:nth-child(4n+1), &.col-sm-4:nth-child(3n+1), &.col-sm-6:nth-child(2n+1) {
+				clear: none;
+			}
+			&:nth-child(2n+1) {
+				clear: both;
+			}
+		}
+		.item_border {
+			margin-bottom: 20px;
+		}
+	}
+	.counter-group {
+		margin: 10px auto;
+	}
+	.counter-block {
+		margin-right: 8px;
+		.counter {
+			width:       120px;
+			height:      80px;
+			overflow:    hidden;
+			font-weight: 700;
+			.number {
+				font-size:   70px;
+				line-height: 78px;
+			}
+			&.with-hundreds {
+				width: 180px;
+			}
+		}
+		.counter-caption {
+			font-size: 100%;
+		}
+	}
+	/**
+	 * Style begins
+	 */
+	.woocommerce,
+	.woocommerce-page {
+		table.shop_table_responsive {
+			thead {
+				display: none;
+			}
+
+			tbody {
+				tr:first-child {
+					td:first-child {
+						border-top: 0;
+					}
+				}
+
+				th {
+					display: none;
+				}
+			}
+
+			tr {
+				display: block;
+
+				td {
+					display:    block;
+					text-align: right !important; // Important to overwrite order status inline styling
+
+					&.order-actions {
+						text-align: left !important;
+					}
+
+					&:before {
+						content:     attr(data-title) ': ';
+						font-weight: 700;
+						float:       left;
+					}
+
+					&.product-remove,
+					&.actions {
+						&:before {
+							display: none;
+						}
+					}
+				}
+
+				&:nth-child(2n) {
+					td {
+						background-color: rgba(0, 0, 0, 0.025);
+					}
+				}
+			}
+		}
+
+		/**
+		 * General layout
+		 */
+		.col2-set {
+			.col-1,
+			.col-2 {
+				float: none;
+				width: 100%;
+			}
+		}
+
+		/**
+		 * Cart
+		 */
+		table.cart,
+		#content table.cart {
+			.product-thumbnail {
+				display: none;
+			}
+
+			td.actions {
+				text-align: left;
+
+				.coupon {
+					float:          none;
+					@include clearfix();
+					padding-bottom: .5em;
+
+					input,
+					.button,
+					.input-text {
+						width:      48%;
+						box-sizing: border-box;
+					}
+
+					.input-text + .button,
+					.button.alt {
+						float: right;
+					}
+				}
+
+				.button {
+					display: block;
+					width:   100%;
+				}
+			}
+		}
+
+		.cart-collaterals {
+			.cart_totals,
+			.shipping_calculator,
+			.cross-sells {
+				width:      100%;
+				float:      none;
+				text-align: left;
+			}
+		}
+
+		/**
+		 * Checkout
+		 */
+		&.woocommerce-checkout {
+			form.login {
+				.form-row {
+					width: 100%;
+					float: none;
+				}
+			}
+		}
+
+		#payment {
+			.terms {
+				text-align: left;
+				padding:    0;
+			}
+
+			#place_order {
+				float:         none;
+				width:         100%;
+				box-sizing:    border-box;
+				margin-bottom: 1em;
+			}
+		}
+
+		/**
+		 * Account
+		 */
+		.lost_reset_password {
+			.form-row-first,
+			.form-row-last {
+				width:        100%;
+				float:        none;
+				margin-right: 0;
+			}
+		}
+	}
+
+	.woocommerce-account {
+		.woocommerce-MyAccount-navigation,
+		.woocommerce-MyAccount-content {
+			float: none;
+			width: 100%;
+		}
+	}
+	.wrapper-footer ul {
+		text-align: left;
+		li {
+			margin-left:  0;
+			margin-right: 10px;
+		}
+	}
+	.tb_single_tour, .woocommerce, .woocommerce-page {
+		.images_single_left {
+			width: 55%;
+		}
+		.description_single {
+			width: 45%
+		}
+	}
+	.single-woo-tour .description_single .affix-sidebar {
+		top:        0;
+		margin-top: 30px;
+	}
+	.images_single_left .tour_after_title {
+		.meta_date, .meta_values, .single-adults-children {
+			width:         50%;
+			margin-bottom: 10px;
+			text-align:    left;
+		}
+		.tour-share {
+			width:         100%;
+			margin-bottom: 10px;
+			text-align:    left;
+		}
+	}
+	.wrapper-blog-content {
+		.sticky {
+			padding: 15px;
+		}
+		article {
+			.img_post {
+				width: 220px;
+			}
+			.content-thumbnail {
+				width:        calc(100% - 220px);
+				padding-left: 20px;
+			}
+		}
+	}
+	.slider-tour-booking {
+		margin-top: -222px;
+	}
+
+	.banner-tour-booking {
+		margin-top: 20px;
+	}
+
+	.list-posts {
+		margin-right: 0;
+		margin-left:  0;
+		.post_list_content_unit {
+			width: 50%;
+			float: left;
+			&.col-sm-3:nth-child(4n+1), &.col-sm-4:nth-child(3n+1) {
+				clear: none;
+			}
+			&:nth-child(2n+1) {
+				clear: both !important;
+			}
+		}
+	}
+
+	.comments-area .comment-respond .comment-form {
+		padding: 20px;
+		.comment-form-author, .comment-form-email, .comment-form-url, .comment-form-phone {
+			width:         100%;
+			padding-left:  0;
+			padding-right: 0;
+		}
+		.form-submit input#submit {
+			margin-bottom: 10px;
+		}
+	}
+	.two-column-respon {
+		.wpb_column {
+			width: 50%;
+			float: left;
+			&:nth-child(2n+1) {
+				clear: both;
+			}
+		}
+	}
+	.wrapper-tours-slider {
+		.tours-type-slider {
+			.owl-nav {
+				display: none !important;
+				.owl-prev, .owl-next {
+					display: none !important;
+				}
+			}
+		}
+		.owl-controls {
+			margin: 30px 0 0 0;
+		}
+		.owl-dots {
+			text-align: center;
+		}
+	}
+	.wrapper-tours-slider {
+		.owl-controls .owl-dot span {
+			border-color: #bbbaba;
+		}
+	}
+	.woocommerce div.product .woocommerce-tabs {
+		.panel-group {
+			.panel-default {
+				margin-bottom: 15px;
+				border:        none;
+				border-radius: 0;
+				box-shadow:    0 0 0;
+				.panel-heading {
+					padding:       0;
+					border:        none !important;
+					border-radius: 0;
+					.panel-title a {
+						display: block;
+						padding: 10px 15px;
+
+					}
+				}
+			}
+			.panel-collapse {
+				border:     2px solid;
+				border-top: none;
+			}
+		}
+	}
+	.content-area {
+		padding-top:    40px;
+		padding-bottom: 40px;
+	}
+	.sc-gallery {
+		.content_gallery {
+			.gallery_item-wrap {
+				width: 50%;
+				float: left;
+			}
+		}
+	}
+	.wrapper-content {
+		.top_site_main {
+			padding-top: 65px;
+		}
+	}
+	//.tours-type-slider .tours_type_item {
+	//	width: 33.333%
+	//}
+	//.tours-type-slider .item-tour {
+	//	width: 50%;
+	//}
+	.woocommerce, .woocommerce-page {
+		.tb_single_tour {
+			.images_single_left, .description_single {
+				width: 100%;
+				float: none;
+			}
+		}
+	}
+	.woocommerce, .woocommerce-page {
+		.images_single_left, .description_single {
+			width: 100%;
+			float: none;
+		}
+		div.product .woocommerce-tabs ul.tabs li a {
+			height:      43px;
+			line-height: 43px;
+			padding:     0 25px;
+		}
+	}
+	.wrapper-special-tours {
+		margin: 0 -10px;
+		.inner-special-tours {
+			width:   50%;
+			float:   left;
+			padding: 0 10px;
+			.item_price {
+				right: 10px;
+			}
+		}
+	}
+	.border-below {
+		padding: 10px 0 30px 0;
+	}
+	.shortcode_title .title_subtitle {
+		font-size: 1em;
+	}
+
+	.tab-search-tour-hotel {
+		margin-top: -82px;
+
+	}
+	.sc-search-tour-hotel {
+		.content-tab-search {
+			background: #1f1e1e;
+		}
+		.hotel-booking-search, .travel-booking-search {
+			form {
+				padding: 0;
+			}
+		}
+	}
+	.single-woo-tour .description_single .affix-sidebar,
+	.single-woo-tour .description_single .entry-content-tour p.price {
+		position: static !important;
+		width:    auto !important;
+	}
+
+}
+
+@media (max-width: 668px) {
+
+	.related.tours {
+		display: none;
+	}
+}
+
+@media (max-width: 569px) {
+
+}

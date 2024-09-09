@@ -1,0 +1,405 @@
+
+.tours-type-slider {
+	.tours_type_item {
+		position: relative;
+		text-align: center;
+		padding: 0 15px;
+		width: 20%;
+		float: left;
+
+		.content-item {
+			//width: 100%;
+			position: absolute;
+			top: 50%;
+			left: 15px;
+			right: 15px;
+			color: #fff;
+			font-size: 22px;
+			text-align: center;
+
+			transform: translateY(-50%);
+
+			.elementor-widget-travel-list-attributes & {
+				top: auto;
+			}
+		}
+
+		.item__title {
+			// pointer-events: none;
+			font-style: normal;
+			text-transform: uppercase;
+		}
+
+		.count-attr {
+			font-size: 16px;
+		}
+
+		.tours-type__item__image {
+			display: block;
+			@include transition(all 0.2s ease-in-out);
+			border-bottom: none;
+
+			img {
+				border-radius: 50%;
+			}
+
+			&:hover {
+				border-bottom: none;
+				opacity: 0.8;
+			}
+		}
+	}
+}
+
+.tours-type-pain {
+	.tours_type_item {
+		width: 33.33%;
+		padding: 0 15px;
+		margin-bottom: 20px;
+		float: left;
+		position: relative;
+
+		.count-attr {
+			font-size: 1.2em;
+			font-weight: 300;
+		}
+
+		.item__title {
+			font-size: 2.6em;
+			line-height: 1.1em;
+
+			&:before {
+				font: normal normal normal 0.7em/1 'Linearicons-Free';
+				content: "\e833";
+				margin-right: 10px;
+			}
+		}
+
+		&.width2x3 {
+			width: 66.67%;
+			//.item__title {
+			//	font-size:   4em;
+			//	line-height: 1.1em;
+			//}
+		}
+
+		&:nth-child(3) {
+			clear: both;
+		}
+
+		.tours-type__item__image {
+			display: block;
+			@include transition(all 0.2s ease-in-out);
+			border-bottom: none;
+			overflow: hidden;
+			position: relative;
+
+			&:before {
+				content: "";
+				background-color: rgba(0, 0, 0, 0.5);
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				@include transition(opacity 500ms ease-out);
+				opacity: 0;
+			}
+
+		}
+
+		.content-item {
+			position: absolute;
+			bottom: 15px;
+			right: 30px;
+			text-align: right;
+			color: #fff;
+		}
+
+		&:hover {
+			.tours-type__item__image:before {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.swiper-slide {
+	float: left;
+}
+
+.owl-item {
+	.tours_type_item {
+		width: 100%;
+		float: none;
+	}
+}
+
+.tours-type_item_container {
+	display: block;
+	width: 195px;
+	height: 195px;
+	margin: 0 auto;
+	position: relative;
+	border: 3px solid rgba(255, 255, 255, 0.85);
+	border-radius: 100%;
+	@include transition(all 0.2s ease-in-out);
+
+	.tours-type_content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		@include transform(translate(-50%, -50%));
+		text-align: center;
+		color: #fff;
+		font-size: 1.200em;
+		font-weight: 700;
+		font-style: normal;
+		text-transform: uppercase;
+		@include transition(all 0.2s ease-in-out);
+	}
+
+	&:hover {
+		background: rgba(38, 189, 247, 0.5);
+		text-decoration: none;
+		border: 3px solid rgba(38, 189, 247, 0.7);
+	}
+}
+
+.title.text-white {
+	color: #fff;
+}
+
+.shortcode-tour-reviews, .elementor-widget-travel-tours-review > .elementor-widget-container {
+	padding: 35px 25px;
+	background-color: rgba($body_color_primary_rgb, 0.8);
+	background-image: url("images/bg-review.png");
+
+	.owl-dots {
+		text-align: center;
+	}
+}
+
+.tour-reviews-item {
+	margin-bottom: 10px;
+	color: #fff;
+
+	.reviews-item-info {
+		text-align: center;
+		width: 100%;
+		margin: 15px 0;
+		overflow: hidden;
+
+		.item_rating {
+			width: 100%;
+		}
+
+		img {
+			border-radius: 100%;
+			border: 6px solid #fff;
+			box-shadow: 0 2px 3px rgba(0, 0, 0, 0.09);
+		}
+
+		.reviews-item-info-name {
+			font-size: 16px;
+			padding-top: 15px;
+			font-weight: 500;
+		}
+
+		.star-rating {
+			float: none;
+			margin: 5px auto;
+			color: #ffcd47;
+
+			&:before {
+				color: #ffcd47;
+			}
+		}
+
+		.reviews-item-rating {
+			margin-top: 5px;
+			color: #ffcd47;
+			font-size: 1.200em;
+		}
+	}
+
+	.reviews-item-content {
+		width: 100%;
+		text-align: center;
+
+		.reviews-item-title {
+			margin: 10px 0;
+			font-size: 1.4em;
+
+			a {
+				color: #fff;
+
+				&:hover {
+					color: #26BDF7;
+				}
+			}
+
+			.elementor-widget-travel-tours-review & a {
+				color: inherit;
+			}
+		}
+
+	}
+
+	&:last-child {
+		border-bottom: none;
+	}
+}
+
+.tours-type-slider {
+	.item-tour {
+		width: 25%;
+		float: left;
+	}
+
+	.owl-item {
+		.item-tour {
+			width: 100%;
+		}
+	}
+}
+
+.tours-type-pain {
+	@include clearfix();
+
+	.item-tour {
+		margin-bottom: 30px;
+
+		&.col-sm-3:nth-child(4n+1), &.col-sm-4:nth-child(3n+1), &.col-sm-6:nth-child(2n+1) {
+			clear: both;
+		}
+	}
+}
+
+.addthis_sharing_toolbox {
+	margin-top: 10px;
+	border: 2px solid #ddd;
+	padding-top: 5px;
+}
+
+.post_list_content_unit {
+	margin-bottom: 20px;
+
+	&.col-sm-6:nth-child(2n+1), &.col-sm-3:nth-child(4n+1), &.col-sm-4:nth-child(3n+1) {
+		clear: both;
+	}
+
+	.feature-image {
+		margin-bottom: 30px;
+		text-align: center;
+
+		a {
+			position: relative;
+			overflow: hidden;
+			display: block;
+		}
+	}
+
+	.post-list-content {
+		@include clearfix();
+
+		.post_list_inner_content_unit {
+			width: 100%;
+
+			.post_list_title {
+				margin-bottom: 8px;
+				margin-top: 0;
+
+				a {
+					color: #555;
+
+					&:hover {
+						color: #26BDF7;
+					}
+				}
+			}
+
+			.wrapper-meta {
+				color: #aaa;
+				font-size: 12px;
+				margin-bottom: 15px;
+
+				.date-time {
+					margin-right: 15px;
+
+					&:before {
+						content: "\f073";
+						font-family: 'Font Awesome 5 Free' !important;
+						font-weight: 600;
+						margin-right: 5px;
+						display: inline-block;
+					}
+				}
+
+				.post_list_cats {
+					&:before {
+						content: "\f02c";
+						font-family: 'Font Awesome 5 Free' !important;
+						font-weight: 600;
+						margin-right: 5px;
+						display: inline-block;
+					}
+				}
+
+				.date-time, .post_list_cats {
+					display: inline-block;
+				}
+
+			}
+
+			.post_list_cats {
+				a {
+					color: #aaa;
+
+					&:hover {
+						color: #26BDF7;
+					}
+				}
+			}
+		}
+	}
+}
+
+.list-posts.list-post-style_2 {
+	margin-left: 0;
+	margin-right: 0;
+
+	.shortcode_title {
+		text-align: left;
+		margin-bottom: 25px;
+	}
+
+	.post_list_content_unit {
+		width: 100%;
+		margin-bottom: 15px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		.img_post.feature-image {
+			width: 90px;
+			float: left;
+			margin-right: 15px;
+			margin-bottom: 0;
+		}
+
+		.post-list-content {
+			overflow: hidden;
+
+			.post_list_title {
+				font-size: 1.2em;
+				font-weight: 600;
+			}
+
+			.wrapper-meta {
+				line-height: 1em;
+			}
+		}
+	}
+}

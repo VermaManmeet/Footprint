@@ -1,0 +1,74 @@
+
+.wrapper-adults-children {
+	text-transform: uppercase;
+	color:          #666;
+	margin-bottom:  10px;
+	margin-top:     10px;
+	display:        block;
+	text-align:     left;
+	> span {
+		margin-right: 10px;
+		&:last-child {
+			margin-right: 0;
+		}
+		&:before {
+			font:           normal normal normal 16px/1 'Linearicons-Free';
+			display:        inline-block;
+			vertical-align: middle;
+			margin-right:   8px;
+			margin-top:     -2px;
+		}
+		&.adults:before {
+			content: "\e82a";
+		}
+		&.children:before {
+			content: "\e82b";
+		}
+	}
+}
+
+.hotel_info {
+	margin:        0 -15px;
+	margin-bottom: 20px;
+	@include clearfix();
+	.column {
+		float: left;
+	}
+	.inner-content-right {
+		border-bottom:  1px solid $border_color;
+		padding-bottom: 20px;
+		@include clearfix();
+		.column {
+			width:       50%;
+			line-height: 2em;
+			&.column-full {
+				width: 100%;
+			}
+		}
+	}
+	&.no-border-bottom {
+		.inner-content-right {
+			border-bottom: none;
+		}
+	}
+}
+
+.price-nights-details {
+	&.show {
+		display: table !important;
+	}
+	td {
+		text-align: center;
+	}
+}
+
+.woocommerce table.shop_attributes td {
+	padding-left: 10px !important;
+}
+
+.wrapper-hotels.content_tour_style_2 .item_border .item_rating {
+	position: absolute;
+	z-index:  1;
+	bottom:   5px;
+	left:     5px
+}

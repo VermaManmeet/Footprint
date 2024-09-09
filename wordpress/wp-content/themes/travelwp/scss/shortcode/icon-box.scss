@@ -1,0 +1,103 @@
+.iconbox-center {
+	text-align: center;
+	.boxes-icon {
+		margin:      0 auto 20px auto;
+		width:       80px;
+		height:      80px;
+		line-height: 80px;
+		display:     inline-block;
+		font-size:   0;
+	}
+	.heading__primary {
+		margin-top: 0;
+	}
+	.icon-image {
+		//width:     80px;
+		display:   inline-block;
+		font-size: 0;
+		margin:    0 auto;
+	}
+}
+
+.widget-icon-box {
+	.boxes-icon {
+		overflow:           hidden;
+		display:            inline-block;
+		border-radius:      50%;
+		position:           relative;
+		box-shadow:         0 0 0 3px #26BDF7;
+		-webkit-transition: color 0.3s;
+		-moz-transition:    color 0.3s;
+		transition:         color 0.3s;
+		cursor:             pointer;
+		&:after {
+			top:                -2px;
+			left:               -2px;
+			padding:            2px;
+			background:         #26BDF7;
+			-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+			-moz-transition:    -moz-transform 0.2s, opacity 0.2s;
+			transition:         transform 0.2s, opacity 0.2s;
+			pointer-events:     none;
+			position:           absolute;
+			width:              100%;
+			height:             100%;
+			border-radius:      50%;
+			content:            '';
+			-webkit-box-sizing: content-box;
+			-moz-box-sizing:    content-box;
+			box-sizing:         content-box;
+		}
+		&:hover {
+			&:after {
+				@include transform(scale(0.85))
+			}
+		}
+	}
+	a:hover {
+		color: inherit;
+	}
+}
+
+.inner-icon {
+	display:      table;
+	text-align:   center;
+	width:        100%;
+	height:       100%;
+	table-layout: fixed;
+	box-sizing:   border-box;
+	color:        #fff;
+	position:     relative;
+	z-index:      1;
+	i {
+		font-size: inherit;
+	}
+}
+
+.iconbox-left {
+	.boxes-icon {
+		float: left;
+	}
+	.content-inner {
+		float:        left;
+		text-align:   left;
+		padding-left: 20px;
+		.heading__primary {
+			margin-top: 0;
+		}
+	}
+}
+
+.iconbox-right {
+	.boxes-icon {
+		float: right;
+	}
+	.content-inner {
+		float:         left;
+		text-align:    right;
+		padding-right: 20px;
+		.heading__primary {
+			margin-top: 0;
+		}
+	}
+}

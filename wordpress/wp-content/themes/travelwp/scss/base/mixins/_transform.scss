@@ -1,0 +1,13 @@
+// ----------------------------------------------------------------------
+
+  // Transform
+
+// ----------------------------------------------------------------------
+
+// example: @include transform("origin", 0, 0);
+
+@mixin transform($type) {
+  -webkit-transform: #{$type};
+     -moz-transform: #{$type};
+          transform: #{$type};
+}

@@ -1,0 +1,20 @@
+@media (min-width: 993px) and (max-width: 1200px) {
+	.navbar-nav > li {
+		padding: 0 15px;
+	}
+	.wrapper-tours-slider .tours-type-slider .owl-nav {
+		.owl-next {
+			right: -35px;
+		}
+		.owl-prev {
+			left: -35px;
+		}
+	}
+
+}
+
+@media (max-width: 1025px) {
+	//.tours-type-slider .tours_type_item {
+	//	width: 25%
+	//}
+}

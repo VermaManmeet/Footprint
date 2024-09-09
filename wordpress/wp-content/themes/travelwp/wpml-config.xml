@@ -1,0 +1,11 @@
+<wpml-config>
+	<admin-texts>
+		<key name="travelwp_theme_options">
+			<key name="another_from_shortcode"/>
+			<key name="before_newsletter"/>
+			<key name="title_newsletter"/>
+			<key name="shortcode_newsletter"/>
+			<key name="copyright_text"/>
+		</key>
+	</admin-texts>
+</wpml-config>

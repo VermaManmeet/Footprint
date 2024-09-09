@@ -1,0 +1,115 @@
+//------ SASS Useful Mixins ---------------------------------------------
+
+// by Ryan Burgess
+// https://github.com/ryanburgess/SASS-Useful-Mixins
+
+// ----------------------------------------------------------------------
+
+  // Alignment
+
+// ----------------------------------------------------------------------
+@import "mixins/_margin-auto";
+
+// ----------------------------------------------------------------------
+
+  // Animation
+
+// ----------------------------------------------------------------------
+@import "mixins/_animate-link";
+@import "mixins/_animations";
+@import "mixins/_backface-visibility";
+@import "mixins/_keyframes";
+@import "mixins/_single-transform";
+@import "mixins/_transform";
+@import "mixins/_transitions";
+@import "mixins/_translate";
+@import "mixins/_rotate";
+@import "mixins/_flip";
+
+// ----------------------------------------------------------------------
+
+  // Functional
+
+// ----------------------------------------------------------------------
+@import "mixins/_hide-text";
+@import "mixins/_hover-focus";
+@import "mixins/_replace-text";
+
+// ----------------------------------------------------------------------
+
+  // Gradients
+
+// ----------------------------------------------------------------------
+@import "mixins/_linear-gradient";
+@import "mixins/_linear-gradient-angle";
+
+// ----------------------------------------------------------------------
+
+  // Layout
+
+// ----------------------------------------------------------------------
+@import "mixins/_background-cover";
+@import "mixins/_box-model";
+@import "mixins/_clearfix";
+@import "mixins/_inline-block";
+
+// ----------------------------------------------------------------------
+
+  // Media Queries
+
+// ----------------------------------------------------------------------
+@import "mixins/_breakpoint";
+@import "mixins/_min-breakpoint";
+@import "mixins/_retina";
+
+// ----------------------------------------------------------------------
+
+  // Styles
+
+// ----------------------------------------------------------------------
+@import "mixins/_box-shadow";
+@import "mixins/_inner-shadow";
+@import "mixins/_opacity";
+@import "mixins/_placeholder";
+@import "mixins/_rounded-corners";
+@import "mixins/_text-shadow";
+@import "mixins/_triangles";
+@import "mixins/_background-opacity";
+
+// ----------------------------------------------------------------------
+
+  // Values
+
+// ----------------------------------------------------------------------
+@import "mixins/_rem";
+
+
+// ----------------------------------------------------------------------
+
+  // Custom
+
+// ----------------------------------------------------------------------
+
+@mixin linx ($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;   
+    }
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+@mixin border_radius($radius: 4px) {
+  border-radius: $radius;
+}

@@ -1,0 +1,43 @@
+.travel-booking-search-elementor {
+	margin: 0 calc(var(--search-space-item, 10px) * -1);
+	.hb-form-table {
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: flex-start;
+
+
+		&:before, &:after {
+			display: none;
+		}
+
+		.hb-form-field-select, .hb-form-field-input {
+			width: 100%;
+		}
+
+		li.hb-form-field {
+			display: flex;
+			flex-wrap: nowrap;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: flex-end;
+			width: inherit;
+			flex-grow: 1;
+			margin: 0;
+			padding: 0 var(--search-space-item, 10px);
+		}
+	}
+}
+
+.search-tours-has-separator-yes {
+	.hb-form-table {
+		.hb-form-field {
+			&:not(:last-child) {
+				border-right: 1px solid var(--separator-color-item, #E8EDF1);
+				@media (max-width: 767px) {
+					border-right: none;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1989 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2019-04-16 07:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: svn/wp/Theme/travelwp/404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/404.php:25
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: svn/wp/Theme/travelwp/comments.php:41 svn/wp/Theme/travelwp/comments.php:54
+msgid "Older Comments"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/comments.php:42 svn/wp/Theme/travelwp/comments.php:55
+msgid "Newer Comments"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/footer.php:33
+msgid "Copyright &copy; 2018 Travel WP. All Rights Reserved."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/woocommerce/woocommerce.php:143
+msgid "From"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/woocommerce/woocommerce.php:158
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:17
+msgid "A widget that displays your social icons"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:113
+msgid "Facebook Name:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:118
+msgid "Twitter Name:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:123
+msgid "Instagram Name:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:128
+msgid "Pinterest Name:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:133
+msgid "Bloglovin Name:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:138
+msgid "Google Plus Name:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:143
+msgid "Tumblr Name:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:148
+msgid "Youtube Name:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:160
+msgid "A search form for your site."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:181
+msgid "Search ..."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:181
+msgid "Search for:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:216
+msgid "from login and register"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:232
+msgid "Logout"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:235
+#: svn/wp/Theme/travelwp/inc/widgets.php:740
+msgid "Login"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:249
+msgid "Username or Email Address"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:253
+#: svn/wp/Theme/travelwp/inc/widgets.php:294
+msgid "Password"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:257
+msgid "Lost your password?"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:260
+msgid "Log In"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:268
+#: svn/wp/Theme/travelwp/inc/widgets.php:299
+msgid "Register"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:282
+msgid "Username"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:286
+msgid "Email address"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:290
+msgid "Anti-spam"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:340
+msgid "Title Form Login:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:344
+msgid "Title Form Register:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:355
+msgid "show tour"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:516
+msgid "Tour category"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:518
+msgid "Any"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:528
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:53
+msgid "Order by"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:530
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:57
+msgid "Date"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:531
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:58
+msgid "Price"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:532
+msgid "Rand"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:533
+msgid "Sales"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:537
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:65
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:18
+msgid "Order"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:539
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:69
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:22
+msgid "DESC"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:540
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:70
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:23
+msgid "ASC"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:544
+msgid "Tour ID"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:548
+msgid "Number Post"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:593
+msgid "Extra Class"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:722
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:761
+msgid "This username is already registered."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:763
+msgid "This email address is already registered."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:766
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:767
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:768
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:769
+#, php-format
+msgid "From: %1$s <%2$s>"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:770
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:772
+#, php-format
+msgid "Thanks for creating an account on %1$s Your username is %2$s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:773
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:776
+msgid "Thank you for your registration"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:778
+msgid "Registration"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:792
+msgid "Wrong username or password."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/widgets.php:795
+msgid " successful, redirecting..."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:129
+msgid "Sidebar"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:131
+msgid ""
+"Position on the left or right of content. It will not show on shop page."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:140
+msgid "Top bar left"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:142
+#: svn/wp/Theme/travelwp/inc/init.php:152
+#: svn/wp/Theme/travelwp/inc/init.php:172
+#: svn/wp/Theme/travelwp/inc/init.php:182
+msgid "Add widgets here."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:150
+msgid "Top bar right"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:160
+msgid "Menu Right"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:170
+#: svn/wp/Theme/travelwp/inc/admin/options/footer.php:4
+msgid "Footer"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:180
+msgid "Copyright Right"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:191
+msgid "Sidebar Shop"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:201
+msgid "Single Tours"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:261
+msgid "Primary Menu"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:423
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:431
+msgid "Edit"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:653
+#, php-format
+msgid "%s"
+msgstr ""
+
+#. 1: Taxonomy singular name, 2: Current taxonomy term
+#: svn/wp/Theme/travelwp/inc/init.php:658
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:658
+msgid "Tourist"
+msgstr ""
+
+#. 1: Taxonomy singular name, 2: Current taxonomy term
+#: svn/wp/Theme/travelwp/inc/init.php:661
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/init.php:664
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/breadcrumb.php:43
+msgid "Home"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/breadcrumb.php:68
+msgid "Search Result"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/breadcrumb.php:70
+msgid "404 Not Found"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/template-tags.php:76
+#: svn/wp/Theme/travelwp/inc/template-tags.php:108
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/template-tags.php:81
+#: svn/wp/Theme/travelwp/inc/template-tags.php:113
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/template-tags.php:132
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/template-tags.php:138
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: svn/wp/Theme/travelwp/inc/template-tags.php:145
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: svn/wp/Theme/travelwp/inc/template-tags.php:152
+#: svn/wp/Theme/travelwp/template-parts/content-page.php:29
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/travel-booking/archive-attribute.php:57
+#: svn/wp/Theme/travelwp/travel-booking/archive-tour.php:65
+msgid "No tours were found matching your selection."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/travel-booking/content-single-tour.php:45
+msgid "Category:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/travel-booking/content-single-tour.php:96
+msgid "Or"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/travel-booking/content-single-tour.php:104
+msgid "Booking Form"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/travel-booking/content-single-tour.php:105
+msgid "Enquiry Form"
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/template-parts/content-page.php:19
+#: svn/wp/Theme/travelwp/template-parts/content.php:31
+msgid "Pages:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/woocommerce/single-product/product-image.php:46
+#: svn/wp/Theme/travelwp/woocommerce/single-product/product-image.php:77
+#: svn/wp/Theme/travelwp/travel-booking/single-tour/gallery.php:52
+#: svn/wp/Theme/travelwp/travel-booking/single-tour/gallery.php:83
+msgid "Placeholder"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:8
+msgid "Banner Typed"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:11
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:23
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:31
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:8
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:8
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:7
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:8
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:7
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:7
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:56
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:7
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:8
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:23
+msgid "Travelwp"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:15
+msgid "Heading before Typed"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:22
+msgid "Add Typed"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:27
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:52
+msgid "Text"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:29
+msgid "Add Text"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:36
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:39
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:45
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:166
+msgid "Heading color"
+msgstr ""
+
+#. Description of the theme
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:44
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:12
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:23
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:172
+msgid "Description"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:50
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:179
+msgid "Description color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:57
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:64
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:115
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:34
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:43
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:35
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:71
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:51
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:86
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:210
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:46
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:45
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:97
+msgid "Extra class name"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/banner-typed.php:59
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:66
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:117
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:36
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:45
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:37
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:73
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:53
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:88
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:212
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:48
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:47
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:99
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/shortcode.php:9
+msgid "CSS Animation"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/shortcode.php:17
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:285
+msgid "Default"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/shortcode.php:19
+msgid "Top to bottom"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/shortcode.php:20
+msgid "Bottom to top"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/shortcode.php:21
+msgid "Left to right"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/shortcode.php:22
+msgid "Right to left"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/shortcode.php:23
+msgid "Appear from center"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/shortcode.php:28
+msgid ""
+"Select type of animation for element to be animated when it \"enters\" the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:12
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:21
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:82
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:90
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:147
+msgid "Using in Theme Option"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:13
+msgid "No Sidebar"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:14
+msgid "Left Sidebar"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:15
+msgid "Right Sidebar"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:17
+msgid "Custom Layout "
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:22
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:148
+msgid "Custom"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:23
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:149
+msgid "Custom Heading "
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:25
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:151
+msgid "Heading Background Image"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:26
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:152
+msgid "Heading Background Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:27
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:153
+msgid "Heading Text Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:28
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:154
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:82
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:56
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:127
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:105
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:171
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:70
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:169
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:246
+msgid "Hide Title"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:29
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:155
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:120
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:63
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:134
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:52
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:113
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:179
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:77
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:176
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:253
+msgid "Hide Breadcrumbs?"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:76
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:157
+msgid "Thumbnail Image"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:77
+msgid "Select Icon"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:78
+msgid "Custom Image Icon"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:83
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:18
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:118
+msgid "List"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:84
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:19
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:119
+msgid "Grid"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:86
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:101
+msgid "Custom Layout content"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:91
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:45
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:79
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:16
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:49
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:51
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:28
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:128
+msgid "Style 1"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:92
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:46
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:80
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:17
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:50
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:52
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:29
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:129
+msgid "Style 2"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:93
+msgid "Custom Style content"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:158
+#: svn/wp/Theme/travelwp/inc/admin/options/newsletter.php:31
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:26
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:145
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:173
+#: svn/wp/Theme/travelwp/inc/admin/options/footer.php:18
+msgid "Text Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/tax-meta.php:159
+msgid "Custom Link"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:6
+msgid "Post Format: Gallery"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:11
+msgid "Images"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:18
+msgid "Post Format: Video"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:23
+msgid "Video URL or Embeded Code"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:30
+msgid "Post Format: Audio"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:35
+msgid "Audio URL or Embeded Code"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:42
+msgid "Post Format: Link"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:47
+msgid "URL"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:60
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:3
+msgid "Display Settings"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:64
+msgid "Featured Title Area?"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:69
+msgid "User Featured Title?"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:76
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:88
+msgid "Custom Title"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:91
+msgid "Leave empty to use post title"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:96
+msgid "Custom Heading Background"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:101
+msgid "Update images"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:106
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:135
+msgid "This will overwrite page layout settings in Theme Options"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:109
+msgid "Background Color Featured"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:114
+msgid "Text Color Featured"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:126
+msgid "Custom Layout"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:131
+msgid "Use Custom Layout?"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/meta-boxes.php:138
+msgid "Select Layout"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options-config.php:41
+#: svn/wp/Theme/travelwp/inc/admin/options-config.php:42
+msgid "Theme Options"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options-config.php:247
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/extension_demo_importer.php:271
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options-config.php:249
+msgid "Before click button import demo please config image size of "
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options-config.php:249
+msgid "WooCommerce"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options-config.php:250
+msgid " with Main image width (820), Thumbnail width (430)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options-config.php:251
+msgid " and of "
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options-config.php:251
+msgid "Media"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options-config.php:252
+msgid " with Medium size (370x260)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/global/wrapper-before-after.php:280
+msgid "Displaying Results for:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/global/wrapper-before-after.php:288
+msgid "Blog"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/travel-booking/single-tour/code.php:20
+msgid "Code:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/travel-booking/single-tour/price.php:27
+msgid "Price:"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/travel-booking/single-tour/related.php:63
+msgid "Related Tours"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:20
+msgid "Show tours of attribute"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:27
+msgid "Select Attribute"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:34
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:102
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:64
+msgid "Limit"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:41
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:12
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:45
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:47
+msgid "Style"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:51
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:36
+msgid "Item on row"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:58
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:96
+msgid "Show navigation"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-attributes.php:152
+msgid "Tours"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:27
+msgid "List Tours"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:35
+msgid "Show"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:39
+msgid "All Tour"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:40
+msgid "Tour Category"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:46
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:115
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:142
+msgid "Tour Type"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:59
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:88
+msgid "Random"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:60
+msgid "On-sale"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:75
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:26
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:126
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:223
+msgid "Content Style"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:85
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:19
+msgid "Layout"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:89
+msgid "Pain"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:90
+msgid "Slider"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:105
+msgid "Tour number will be shown."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/list-tours.php:109
+msgid "Tour on row"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:4
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:125
+msgid "Search Tours"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:22
+msgid "Hide Tour Name"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:28
+msgid "Hide Tour Type"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:75
+msgid "Where"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:77
+msgid "When"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:79
+msgid "Choose"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:106
+msgid "Tour name"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:131
+msgid "Anything"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:132
+msgid "Tour Name, Destination"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:140
+msgid "You like"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/booking_tour.php:150
+msgid "Search"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:5
+msgid "Tours Reviews"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:12
+#: svn/wp/Theme/travelwp/inc/admin/options/newsletter.php:46
+msgid "Title"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:28
+msgid "Review ID"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/tours/tours_review.php:31
+msgid "Enter Review ID for shortcode (Note: divide ID with \",\")"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:4
+msgid "Gallery"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:11
+msgid "Input ID image"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:17
+msgid "Show Filter"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:24
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:10
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:38
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:138
+msgid "Column"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:27
+msgid "Two"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:28
+msgid "Three"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:29
+msgid "Four"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/gallery/gallery.php:123
+msgid "all"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:4
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:19
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:11
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:145
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:11
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:27
+msgid "Heading"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:15
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:26
+msgid "Description before heading"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:26
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:32
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:153
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:34
+msgid "Heading type"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:29
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:35
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:156
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:37
+msgid "H2"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:30
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:36
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:157
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:38
+msgid "H3"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:31
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:37
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:158
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:39
+msgid "H4"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:32
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:38
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:159
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:40
+msgid "H5"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:33
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:39
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:160
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:41
+msgid "H6"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:51
+msgid "Style 3"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:57
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:51
+msgid "color line"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/heading/heading.php:64
+msgid "Link"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:3
+msgid "Social Links"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:11
+msgid "Face Url"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:16
+msgid "Twitter Url"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:21
+msgid "Google Url"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:26
+msgid "Dribble Url"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:31
+msgid "Linkedin Url"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:36
+msgid "Instagram Url"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:41
+msgid "Youtube Url"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/social-links/social-links.php:46
+msgid "Behance Url"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:4
+msgid "Deals And Discounts"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:17
+msgid "Text Discounts"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:57
+msgid "End Date"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:62
+msgid "Text button"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:69
+msgid "Icon button"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:80
+msgid "Link button"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:135
+msgid "days"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:135
+msgid "hours"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:135
+msgid "minutes"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/deals-discounts/deals-discounts.php:135
+msgid "seconds"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:52
+msgid "Icon Box"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:60
+msgid "Icon library"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:62
+msgid "Open Iconic"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:63
+msgid "Linecons"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:64
+msgid "TravelWp"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:65
+msgid "Custom Image"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:69
+msgid "Select icon library."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:73
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:89
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:104
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:25
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:12
+msgid "Icon"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:85
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:116
+msgid "Select icon from library."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:120
+#: svn/wp/Theme/travelwp/inc/admin/Tax-meta-class/Tax-meta-class.php:574
+msgid "Upload Image"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:127
+msgid "Select image from media library."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:131
+msgid "Font Size Icon"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:139
+msgid "Width Icon Box"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:174
+msgid "Your description on heading"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:185
+msgid "External link"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:190
+msgid "Link Target"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:193
+msgid "Same window"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:194
+msgid "New window"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:199
+msgid "Icon alignment"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:202
+msgid "Left"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:203
+msgid "Right"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:204
+msgid "Center"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/icon_box/icon_box.php:206
+msgid "Select icon alignment."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:4
+msgid "List information"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:19
+msgid "Add info"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:27
+msgid "using fontawesome: EX: fa-home"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:31
+msgid "Label"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-info/list-info.php:38
+msgid "Content"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:5
+msgid "Counter box"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:23
+msgid "Value"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:27
+msgid "Enter value for graph (Note: choose range from 0 to 100)."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:31
+msgid "Label value"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:35
+msgid ""
+"Enter label for pie chart (Note: leaving empty will set value from \"Value\" "
+"field)."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/counter/counter.php:39
+msgid "Color text"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:12
+msgid "All"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:19
+msgid "List Post"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:58
+msgid "Category"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:70
+msgid "Post on row"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:78
+msgid "Length Description"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:84
+msgid "Display"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:89
+msgid "Popular"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:90
+msgid "Recent"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:91
+msgid "oldest"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/shortcode/list-posts/list-posts.php:93
+msgid "Select Orderby."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/newsletter.php:3
+msgid "Newsletter"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/newsletter.php:9
+msgid "Show Newsletter"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/newsletter.php:17
+msgid "Background Image"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/newsletter.php:18
+msgid "Enter URL or Upload an image file as your background newsletter."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/newsletter.php:25
+msgid "Background  Mask"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/newsletter.php:39
+msgid "Before Title"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/newsletter.php:53
+msgid "Shortcode Form"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:4
+msgid "Typography"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:11
+msgid "Body Font"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:12
+msgid "Specify the body font properties."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:27
+msgid "Title Font"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:41
+msgid "Font Size H1 (px)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:50
+msgid "Font Weight H1"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:71
+msgid "Font Size H2 (px)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:80
+msgid "Font Weight H2"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:101
+msgid "Font Size H3 (px)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:110
+msgid "Font Weight H3"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:131
+msgid "Font Size H4 (px)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:140
+msgid "Font Weight H4"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:161
+msgid "Font Size H5 (px)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:170
+msgid "Font Weight H5"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:191
+msgid "Font Size H6 (px)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/typography.php:200
+msgid "Font Weight H6"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:3
+msgid "Woo Settings"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:20
+msgid "Number of Products/Tours per Page"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:23
+msgid "Insert the number of posts to display per page."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:31
+msgid "Archive Product"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:38
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:102
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:16
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:75
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:153
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:52
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:151
+msgid "Select Layout Default"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:67
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:138
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:53
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:114
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:183
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:81
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:180
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:257
+msgid "Check this box to hide/unhide breadcrumbs"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:70
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:141
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:37
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:121
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:187
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:84
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:183
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:293
+msgid "Background Heading"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:73
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:144
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:190
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:87
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:186
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:296
+msgid "Enter URL or Upload an background heading file for header"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:76
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:147
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:41
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:126
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:194
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:90
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:189
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:299
+msgid "Background Heading Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:85
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:156
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:58
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:136
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:204
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:99
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:198
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:308
+msgid "Text Color Heading"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:95
+msgid "Single Product"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:120
+msgid "Hide Related Product"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:123
+msgid "Check this box to hide/show related Product"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/woocommerce.php:130
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:106
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:174
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:73
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:172
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:249
+msgid "Check this box to hide/unhide title"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/social_share.php:3
+msgid "Social Sharing"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/social_share.php:13
+msgid "Facebook"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/social_share.php:14
+msgid "Twitter"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/social_share.php:15
+msgid "Google Plus"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/social_share.php:16
+msgid "Pinterest"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:4
+msgid "Header"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:11
+msgid "Top Bar"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:19
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:138
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:166
+#: svn/wp/Theme/travelwp/inc/admin/options/footer.php:11
+msgid "Background Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:35
+msgid "Link Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:44
+msgid "Main Menu"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:50
+msgid "Background header"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:59
+msgid "Text Menu Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:66
+#: svn/wp/Theme/travelwp/inc/admin/options/footer.php:26
+msgid "Font Size (px)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:75
+msgid "Font Weight"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:97
+msgid "Sticky Menu"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:105
+msgid "Sticky Menu Option"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:114
+msgid "Sticky Menu Background Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:124
+msgid "Sticky Menu Text Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:133
+msgid "Sub Menu"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:153
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:180
+msgid "Text Hover Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/header.php:161
+msgid "Mobile Menu"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:9
+msgid "Front Page Settings"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:38
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:122
+msgid "Enter URL or Upload an background image file for header"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:68
+msgid "Archive Settings"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:95
+msgid "Excerpt Length"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:96
+msgid ""
+"Enter the number of words you want to cut from the content to be the excerpt "
+"of search and archive"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/display.php:146
+msgid "Post & Page Settings"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:3
+msgid "Tour Setting"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:9
+msgid "Archive Tour"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:16
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:116
+msgid "Layout content"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:109
+msgid "Destination"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:208
+msgid "Single Tour"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:215
+msgid "Sticky sidebar"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:225
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:286
+msgid "Tab"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:226
+msgid "Scroll"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:232
+msgid "Hide Category Tours"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:235
+msgid "Check this box to hide/show category tour"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:239
+msgid "Hide Related Tours"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:242
+msgid "Check this box to hide/show related tour"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:262
+msgid "Form Booking"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:264
+msgid "Show Form Booking"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:265
+msgid "Hide Form Booking"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:266
+msgid "Show Form Booking and Custom Form"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:267
+msgid "Show Custom Form"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:275
+msgid "Custom Form"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:276
+msgid "input shortcode or HTML"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/tour-booking.php:282
+msgid "Layout Form booking and Send Enquiry"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/footer.php:36
+msgid "Border Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/footer.php:44
+msgid "Title Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/footer.php:51
+msgid "Font Size Title (px)"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/footer.php:60
+msgid "Copyright Text"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/custom-css.php:4
+msgid "Custom Css"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/custom-css.php:11
+msgid "CSS Code"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/custom-css.php:12
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/custom-css.php:20
+msgid "JS Code"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/custom-css.php:21
+msgid "Paste your JS code here."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:5
+msgid "Styling"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:9
+msgid "Preloading"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:13
+msgid "show"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:14
+msgid "hide"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:21
+msgid "Boxed"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:22
+msgid "Wide"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:30
+msgid "Background Pattern"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:31
+msgid "select background pattern"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:79
+msgid "Body Background"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:80
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:89
+msgid "Theme Primary Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/styling.php:96
+msgid "Theme Second Color"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:6
+msgid "General Settings"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:14
+msgid "Header Logo"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:15
+msgid "Enter URL or Upload an image file as your logo."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:21
+msgid "Sticky Header Logo"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:22
+msgid "Enter URL or Upload an image file as your sticky logo."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:28
+msgid "Transparent menu home page"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:36
+msgid "Logo Menu transparent"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:42
+msgid "Text Color Menu transparent"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:50
+msgid "Width logo"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/options/general.php:59
+msgid "Width logo mobile"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/extension_demo_importer.php:238
+msgid "Demo Already Imported"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/extension_demo_importer.php:264
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/extension_demo_importer.php:266
+msgid "Demo Importer"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/Tax-meta-class/Tax-meta-class.php:397
+msgid "Click to browse icon"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/Tax-meta-class/Tax-meta-class.php:397
+msgid "Browse Icon"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/Tax-meta-class/Tax-meta-class.php:572
+msgid "Remove Image"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/inc/field_demo_importer.php:95
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/inc/field_demo_importer.php:116
+msgid "Import Demo"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/inc/field_demo_importer.php:99
+msgid "Demo Imported"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/inc/field_demo_importer.php:116
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/inc/field_demo_importer.php:119
+msgid "Please Wait..."
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/inc/field_demo_importer.php:118
+msgid "Imported"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/inc/field_demo_importer.php:120
+msgid "Re-Import"
+msgstr ""
+
+#: svn/wp/Theme/travelwp/inc/admin/demo_importer/inc/field_demo_importer.php:129
+msgid "No Demo Data Provided"
+msgstr ""
+
+#. Name of the theme
+msgid "TravelWP"
+msgstr ""
+
+#. URI of the theme
+msgid "http://travelwp.physcode.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "Physcode"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://physcode.com/"
+msgstr ""

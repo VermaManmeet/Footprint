@@ -1,0 +1,40 @@
+@media (max-width: 320px) {
+
+	.comments-area .comment-respond .comment-reply-title {
+		padding: 0 20px;
+	}
+	.comments-area .comment-list-inner .comments-title {
+		font-size: 20px;
+	}
+
+	.comments-area .comment-list-inner li .comment-extra-info .text-right a {
+		background: transparent;
+		padding:    0;
+		&:hover {
+			background: transparent !important;
+			color:      inherit !important;
+		}
+	}
+	.border-below h2 {
+		font-size: 2.2em;
+	}
+	.banner-typed {
+		.phys-typingEffect {
+			font-size: 2em;
+		}
+		.desc {
+			font-size: 1em;
+		}
+	}
+	.content_tour_style_2 .item_border {
+		.item_content .wrapper_content {
+			padding: 15px;
+		}
+		.read_more {
+			margin: 0 15px;
+			.post_date {
+				letter-spacing: -1px;
+			}
+		}
+	}
+}

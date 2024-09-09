@@ -1,0 +1,80 @@
+/* Bootstrap */
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: transparent !important;
+}
+
+.site-header.affix-top {
+	position: absolute;
+	z-index:  999;
+	width:    100%;
+	.sticky-logo {
+		display: none;
+	}
+}
+
+.affix {
+	.no-sticky-logo {
+		display: none;
+	}
+}
+
+.site-header {
+	width:   100%;
+	z-index: 999;
+	.navbar-nav {
+		text-align: right;
+		> li {
+			float:       none;
+			display:     inline-block;
+			line-height: 1;
+		}
+
+	}
+}
+
+.sticky_header {
+	@include transition(all .4s ease-in-out);
+}
+
+// Touch interaction
+.drag-target {
+	height:   100%;
+	width:    10px;
+	position: fixed;
+	top:      0;
+	z-index:  998;
+}
+
+#sidenav-overlay {
+	position:         fixed;
+	top:              0;
+	left:             0;
+	right:            0;
+	height:           120vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index:          997;
+	will-change:      opacity;
+}
+
+// default menu
+.menu-main-menu {
+	> .menu {
+		ul li {
+			display:    inline-block;
+			list-style: none;
+			padding:    10px 15px;
+		}
+	}
+}
+
+.navigation-menu {
+	.width-logo, .width-navigation {
+		display:        inline-block;
+		vertical-align: middle;
+	}
+	.width-logo {
+		font-size: 30px;
+	}
+}
+

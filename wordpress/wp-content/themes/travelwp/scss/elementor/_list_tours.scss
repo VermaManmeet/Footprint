@@ -1,0 +1,149 @@
+.elementor-widget-list-tours {
+    .thumbnail-position-left,
+    .thumbnail-position-right {
+        display: flex;
+    }
+    .tours-type-pain {
+        column-gap: var(--phys-travelwp-column-gap, 30px);
+        display: grid;
+        grid-template-columns: var(--phys-travelwp-columns, repeat(3, 1fr));
+        row-gap: var(--phys-travelwp-row-gap, 30px);
+        margin: 0 15px;
+        &::before {
+            display: none;
+        }
+    }
+    .post_images .group-icon a:before {
+        display: none;
+    }
+    .item-location {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        svg {
+            margin-right: 6px;
+        }
+        p {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+    }
+    .item-ratting {
+        display: inherit;
+        .item-ratting-count {
+            i {
+                color: #fc961b;
+                margin-right: 4px;
+            }
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.3;
+            color: #121212;
+            margin-right: 4px;
+        }
+        .item-ratting-all {
+            color: #4f5e71;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+    }
+    .tours-type-pain .item-tour {
+        margin-bottom: 0px;
+    }
+    .product-item-meta {
+        .price {
+            span.price-sale {
+                display: block;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%;
+                text-decoration: line-through;
+                color: #aaafb6;
+            }
+            .woocommerce-Price-amount {
+                .text {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #4f5e71;
+                }
+                .woocommerce-Price-currencySymbol {
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 1.3;
+                    color: #121212;
+                }
+            }
+        }
+    }
+    // .wrapper-tours-slider .owl-nav > div {
+    //     display: block !important;
+    //     visibility: visible;
+    //     opacity: 1;
+    //     transform: translateY(0);
+    // }
+}
+.layout_tour_style_2 {
+    .post_images span.onsale {
+        right: -7px !important;
+        &::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-right: 7px solid transparent;
+            position: absolute;
+            bottom: -7px;
+            right: 0;
+            border-top: 7px solid var(--phys-body_color_second, #26bdf7);
+        }
+    }
+    .price {
+        del {
+            display: block;
+            font-size: 1em;
+            color: #a2a2a2;
+            line-height: 1;
+        }
+    }
+}
+.show-separator {
+    a {
+        position: relative;
+        &:before {
+            content: "";
+            width: 1px;
+            position: absolute;
+            top: 5px;
+            bottom: 5px;
+            left: -13px;
+            background: rgba(255, 255, 255, 0.7);
+        }
+        &.frist:before {
+            display: none;
+        }
+    }
+}
+.tour-item.thim-ekits-tours__item.swiper-slide {
+    width: 100%;
+}
+
+@media (max-width: 880px) {
+    .travel-booking-search .hb-form-table li {
+        width: 50% !important;
+        padding: 0 10px !important;
+        margin: 10px 0 !important;
+    }
+}
+@media (max-width: 480px) {
+    .travel-booking-search .hb-form-table li {
+        width: 100% !important;
+    }
+}

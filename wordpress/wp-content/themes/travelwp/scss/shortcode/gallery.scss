@@ -1,0 +1,81 @@
+.sc-gallery {
+	.gallery_item-wrap {
+		padding-bottom: 30px;
+		.gallery-item {
+			opacity:            0;
+			display:            block;
+			width:              100%;
+			height:             100%;
+			position:           absolute;
+			top:                0;
+			left:               0;
+			text-align:         center;
+			-webkit-transition: all 0.2s ease-in-out;
+			-o-transition:      all 0.2s ease-in-out;
+			transition:         all 0.2s ease-in-out;
+			overflow:           hidden;
+			.title {
+				display:           block;
+				position:          absolute;
+				margin:            0;
+				top:               50%;
+				left:              0;
+				right:             0;
+				padding:           20px 25px;
+				-moz-transform:    translate(0, -50%);
+				-ms-transform:     translate(0, -50%);
+				-webkit-transform: translate(0, -50%);
+				-o-transform:      translate(0, -50%);
+				transform:         translate(0, -50%);
+				color:             #fff;
+				z-index:           2;
+				overflow:          hidden;
+				text-transform:    uppercase;
+			}
+		}
+		a.swipebox {
+			display:       block;
+			position:      relative;
+			border-bottom: none;
+			overflow:      hidden;
+			&:hover {
+				.gallery-item {
+					opacity: 1;
+				}
+
+			}
+		}
+	}
+	.gallery-tabs-wrapper.filters {
+		min-height:    62px;
+		line-height:   62px;
+		text-align:    center;
+		background:    #f9f9f9;
+		box-shadow:    0 2px 3px rgba(0, 0, 0, 0.09);
+		margin-bottom: 35px;
+		ul {
+			margin: 0;
+		}
+		li {
+			display:     inline-block;
+			border-left: 1px solid #e9e9e9;
+			list-style:  none;
+			&:last-child {
+				border-right: 1px solid #e9e9e9;
+			}
+			a {
+				display:            block;
+				width:              100%;
+				height:             100%;
+				padding:            0 35px;
+				font-weight:        700;
+				text-transform:     uppercase;
+				-webkit-transition: all 0.2s ease-in-out;
+				-o-transition:      all 0.2s ease-in-out;
+				transition:         all 0.2s ease-in-out;
+				position:           relative;
+				border-bottom:      none;
+			}
+		}
+	}
+}

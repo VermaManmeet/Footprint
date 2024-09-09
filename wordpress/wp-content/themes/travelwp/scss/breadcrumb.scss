@@ -1,0 +1,25 @@
+.phys-breadcrumb {
+	margin: 0;
+	li {
+		display: inline-block;
+		&:after {
+			content: "\f105";
+			margin:  0 5px;
+			font-family: 'Font Awesome 5 Free';
+    		font-weight: 600;
+		}
+		a {
+			text-decoration: none;
+			color:           inherit;
+		}
+	}
+}
+
+.phys-breadcrumb li:last-child:after {
+	content: "";
+	margin:  0
+}
+
+.breadcrumbs-wrapper {
+	margin-bottom: 15px;
+}
